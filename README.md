@@ -1,5 +1,4 @@
 # Fuzzy Logic
-![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/0873097f-3c07-4d9f-97ad-286f0da87569)
 
 Kode di atas adalah implementasi sistem kontrol logika fuzzy untuk mengevaluasi kualitas restoran berdasarkan tiga faktor: makanan, pelayanan, dan kebersihan. Fuzzy logic memungkinkan kita untuk menggambarkan kualitas restoran secara tidak pasti atau tidak tegas, sehingga memungkinkan untuk menangkap ketidakpastian dan kompleksitas dalam penilaian manusia terhadap kualitas restoran.
 
