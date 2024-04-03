@@ -5,7 +5,10 @@ Kode di atas adalah implementasi sistem kontrol logika fuzzy untuk mengevaluasi 
 Pertama-tama, kita memuat data restoran dari file Excel yang diberikan. Kemudian, kita mendefinisikan variabel input (makanan, pelayanan, dan kebersihan) dan output (kualitas) 
 ![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/3b2f6755-2861-438e-ad4c-08fd85b4d83f)
 
-beserta fungsi keanggotaannya menggunakan library skfuzzy. Fungsi keanggotaan ini memodelkan bagaimana variabel input dan output berkaitan dengan label-labellnya (misalnya, "poor", "average", "good").
+beserta fungsi keanggotaannya menggunakan library skfuzzy. 
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/d2d87087-c567-4748-8c11-1f8ca79e6e73)
+
+Fungsi keanggotaan ini memodelkan bagaimana variabel input dan output berkaitan dengan label-labellnya (misalnya, "poor", "average", "good").
 
 Selanjutnya, kita mendefinisikan rules yang menghubungkan variabel input dengan variabel output. Rules ini mencerminkan aturan logika fuzzy berdasarkan pengalaman atau pengetahuan yang dimiliki. Dalam kasus ini, rules tersebut menyatakan bahwa jika makanan buruk, pelayanan buruk, dan kebersihan buruk, maka kualitas restoran akan buruk, dan sebagainya.
 
