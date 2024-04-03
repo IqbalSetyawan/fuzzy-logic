@@ -9,10 +9,20 @@ beserta fungsi keanggotaannya menggunakan library skfuzzy. Fungsi keanggotaan in
 ![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/d2d87087-c567-4748-8c11-1f8ca79e6e73)
 
 Selanjutnya, kita mendefinisikan rules yang menghubungkan variabel input dengan variabel output. Rules ini mencerminkan aturan logika fuzzy berdasarkan pengalaman atau pengetahuan yang dimiliki. Dalam kasus ini, rules tersebut menyatakan bahwa jika makanan buruk, pelayanan buruk, dan kebersihan buruk, maka kualitas restoran akan buruk, dan sebagainya.
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/9cb9ad63-b830-4e29-962e-4037f660595b)
 
 Setelah itu, kita membuat kontrol sistem menggunakan rules yang telah ditentukan. Control system ini akan digunakan untuk mensimulasikan evaluasi kualitas restoran berdasarkan input yang diberikan.
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/d7c2df50-4b6f-4a91-9709-ffc37493471b)
 
-Kemudian, kita iterasi melalui setiap restoran dalam data, menghitung tingkat kualitas menggunakan kontrol sistem yang telah dibuat, dan mencetak hasilnya. Deskripsi kualitas (buruk, standar, baik) ditentukan berdasarkan tingkat kualitas yang dihasilkan.
+Kemudian, kita iterasi melalui setiap restoran dalam data, menghitung tingkat kualitas menggunakan kontrol sistem yang telah dibuat, 
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/36aa7e61-31a2-412c-ae67-747f3887abb9)
+
+dan mencetak hasilnya. 
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/82ada929-5cb4-47aa-ba87-3ce3663b2412)
+
+Deskripsi kualitas (buruk, standar, baik) ditentukan berdasarkan tingkat kualitas yang dihasilkan.
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/794b3d6b-4179-462a-8f87-b6b92c977f55)
+
 
 Penjelasan command-command yang digunakan:
 
@@ -31,5 +41,3 @@ Penjelasan command-command yang digunakan:
 13. `compute()`: Menghitung output dari sistem kontrol fuzzy.
 14. `output['variabel']`: Mendapatkan nilai output dari sistem kontrol fuzzy.
 15. `print()`: Mencetak hasil evaluasi kualitas restoran.
-
-Dengan menggunakan kombinasi command-command ini, kita dapat membuat dan mengevaluasi sistem kontrol logika fuzzy untuk menentukan kualitas restoran.
