@@ -23,6 +23,11 @@ dan mencetak hasilnya.
 Deskripsi kualitas (buruk, standar, baik) ditentukan berdasarkan tingkat kualitas yang dihasilkan.
 ![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/794b3d6b-4179-462a-8f87-b6b92c977f55)
 
+Berikut adalah hasilnya :
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/282c157d-d401-4e2b-98cd-c2da868cf97a)
+
+Dan berikut adalah hasil di file excelnya :
+![image](https://github.com/IqbalSetyawan/fuzzy-logic/assets/163812051/1efd5002-49f0-46f5-b2ea-0f425251e0de)
 
 Penjelasan command-command yang digunakan:
 
@@ -41,3 +46,4 @@ Penjelasan command-command yang digunakan:
 13. `compute()`: Menghitung output dari sistem kontrol fuzzy.
 14. `output['variabel']`: Mendapatkan nilai output dari sistem kontrol fuzzy.
 15. `print()`: Mencetak hasil evaluasi kualitas restoran.
+16. `data.to_excel()`: Mencetak data terkait ke dalam file excel
